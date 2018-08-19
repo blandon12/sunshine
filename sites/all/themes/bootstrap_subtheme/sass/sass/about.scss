@@ -1,0 +1,113 @@
+@import 'variables';
+.page-about {
+  .contact-header {
+    background: linear-gradient(to bottom,#99cc66 5%,#669933 100%);
+    width: 100%;
+    height: 150px;
+    text-indent: 9999px;
+  }
+  .main-container {
+
+    .pane-node {
+      margin: auto;
+      width: 50%;
+      text-align: center;
+
+
+      h2.page-title {
+        font-size: 36px;
+        color: #333;
+        font-family: 'Droid Serif';
+      }
+      .pane-content {
+        font-size: 16px;
+        color: #666;
+        line-height: 30px;
+        font-family: 'Droid Serif';
+      }
+    }
+    .pane-service {
+      margin-top: 80px;
+      padding-top: 40px;
+      border-top: 1px solid #ccc;
+
+      h2 {
+        font-size: 36px;
+        text-align: center;
+        color: #333;
+        margin-bottom: 40px;
+      }
+
+      .view-service {
+        .col {
+          color: #666;
+          text-align: center;
+          float: left;
+          .views-field-field-service-icon {
+            font-size: 40px;
+            color: #E84E41;
+          }
+          .views-field-nothing {
+            width: 50%;
+            margin: auto;
+            height: 220px;
+            .views-field-title {
+              color: #444;
+              font-weight: bold;
+              text-transform: uppercase;
+            }
+            .views-field-body {}
+          }
+        }
+      }
+    }
+
+  }
+
+
+
+}
+
+@media screen and (min-width: $mobile_portrait) and (max-width: $mobile_landscape) {
+  .page-about {
+    .main-container {
+      .pane-node {
+        width: 85%;
+      }
+
+      .pane-service {
+        .view-service {
+          .col {
+            min-height: 300px;
+
+            .views-field-nothing {
+              width: 80%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $mobile_landscape) and (max-width: $tablet) {
+  .page-about {
+    .main-container {
+      .pane-node {
+        width: 80%;
+      }
+
+      .pane-service {
+        .view-service {
+          .col {
+            min-height: 300px;
+
+            .views-field-nothing {
+              width: 80%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

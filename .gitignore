@@ -1,0 +1,11 @@
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
+*/.DS_Store
+*/.sass-cache
+sites/all/themes/bootstrap_subtheme/sass/stylesheets
+*/workspace.xml
+.idea/

@@ -1,0 +1,67 @@
+.page-blog {
+  #panel-bootstrap-column-main-column {
+    .view-recent-blogs {
+      .views-row {
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 50px;
+        padding-bottom: 10px;
+        .views-field-title {
+          margin-bottom: 20px;
+          a {
+            font-size: 36px;
+            color: #333;
+            font-family: 'Droid Serif';
+
+            &:hover {
+              text-decoration: none;
+              color: #555;
+            }
+          }
+        }
+        .views-field-body {
+          color: #666;
+          font-family: 'Droid Serif';
+          font-size: 16px;
+          text-align: left;
+          pre {
+            background-color: rgba(102,204,51,0.2);
+          }
+        }
+        .views-field-nothing {
+          .field-content {
+            span, a {
+              color: #72c02c;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+  #panel-bootstrap-column-1 {
+    h2 {
+      font-size: 16px;
+      color: #8c8c8c;
+      text-transform: uppercase;
+    }
+    a {
+      font-size: 13px;
+      color: #333;
+      font-family: 'Droid Serif';
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    .views-field-title {
+      border-bottom: 1px solid #ccc;
+      padding: 5px 0;
+
+    }
+
+  }
+
+
+}

@@ -1,0 +1,68 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+
+
+
+
+/**
+ * MD slider
+ */
+.mdf-slide-wrap {
+  /*max-height: 400px;*/
+}
+
+
+/*service block*/
+#panel-bootstrap-region-slideshow {
+  float: left;
+  margin: 70px 0 50px 0;
+}
+.pane-service {
+  color: #555;
+}
+.pane-service .col {
+  padding: 10px;
+}
+#panel-bootstrap-row-1 #panel-bootstrap-column-6 #panel-bootstrap-region-gallery .pane-block-7 {
+  margin-left: 40px;
+}
+
+
+#panel-bootstrap-row-1 {
+  margin-top: 50px;
+}
+#panel-bootstrap-region-recent_projects_ {
+  float: left;
+}
+#panel-bootstrap-column-6 {
+  margin-top: 40px;
+}
+
+
+
+/*wiki and blog*/
+#panel-bootstrap-row-3 {
+  margin: 50px 0 70px 0;
+}
+
+.view-recent-wiki .views-field-body {
+  color: #666666;
+  font-size: 13px;
+  margin: 0 0 10px;
+}
+#panel-bootstrap-region-recent_wiki .view-content .views-row,
+#panel-bootstrap-region-recent_blogs .view-content .views-row {
+  border-bottom: 1px solid #d0d0d0;
+  padding: 8px 0;
+}
+#panel-bootstrap-region-recent_wiki .attachment .view-content .views-row,
+#panel-bootstrap-region-recent_blogs .attachment .view-content .views-row {
+  padding: 0;
+}
+#panel-bootstrap-region-recent_wiki .attachment .view-content .views-row .views-field-title,
+#panel-bootstrap-region-recent_blogs .attachment .view-content .views-row .views-field-title {
+  padding-top: 8px;
+}
+

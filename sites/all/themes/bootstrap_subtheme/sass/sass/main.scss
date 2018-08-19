@@ -1,0 +1,29 @@
+/* Welcome to Compass. Use this file to define print styles.
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+
+
+// Our Imports
+
+@import 'variables';
+@import 'header';
+@import 'frontpage';
+@import 'pricing';
+@import 'footer';
+@import 'blog';
+@import 'blog_detail';
+@import 'news';
+@import 'project';
+@import 'contact';
+@import 'about';
+
+
+
+.not-front {
+  h1 {
+    display: none;
+  }
+  .main-container {
+    padding-top: 50px;
+  }
+}

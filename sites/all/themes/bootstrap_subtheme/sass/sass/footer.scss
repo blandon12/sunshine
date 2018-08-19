@@ -1,0 +1,67 @@
+footer {
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  .region-footer-first {
+    h2 {
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #fff;
+    }
+    .contact-form {
+      label {
+        float: left;
+        width: 80px;
+        text-align: right;
+        margin-right: 15px;
+      }
+      input.form-text {
+        width: 70%;
+        border-radius:0;
+      }
+      .form-textarea-wrapper {
+        width: 70%;
+        float: left;
+        textarea {
+          border-radius:0;
+        }
+      }
+      button {
+        float: left;
+        clear: left;
+        margin: 15px 0 0 95px;
+        border-radius:0;
+      }
+    }
+  }
+
+  .region-footer-second {
+    #business_card {
+      background: transparent url(/sites/all/themes/bootstrap_subtheme/images/business_card.png) no-repeat 0px 0px;
+      background-size: contain;
+      background-position: center;
+      height: 296px;
+      position: relative;
+      color: #000;
+    }
+
+    #address {
+      position: absolute;
+      text-align: right;
+      right: 80px;
+      top: 145px;
+      width: 260px;
+      font-size: 0.8em;
+
+      display: none;
+    }
+  }
+
+  .region-footer-b {
+    float: right;
+    span,a {
+      color: #666;
+    }
+  }
+}

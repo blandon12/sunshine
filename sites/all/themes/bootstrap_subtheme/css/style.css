@@ -1,0 +1,47 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+
+#navbar .navbar {
+  border: none;
+  box-shadow: none;
+  background-image: none;
+  background: none;
+}
+
+#navbar ul.menu li a.active {
+  border-bottom: solid 4px #72c02c;
+  background-color: transparent;
+  background-image: none;
+  color: #72c02c;
+}
+
+#navbar ul.secondary {
+  float: right;
+}
+
+/*Navigation bar*/
+.region-navigation {
+  float: right;
+}
+
+.region-navigation .form-item-lang-dropdown-select {
+  float: right;
+  margin-top: 10px;
+}
+
+
+
+
+
+/**
+ * footer
+ */
+.footer {
+  background: #272727;
+  color: #eee;
+}
+.footer a {
+  color: #eee;
+}

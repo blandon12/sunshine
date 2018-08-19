@@ -1,0 +1,13 @@
+<?php
+
+
+function ld_service_form_contact_site_form_alter(&$form, $form_state) {
+  unset($form['subject']);
+  unset($form['copy']);
+  $form['name']['#required'] = FALSE;
+  $form['name']['#title'] = 'Name';
+  $form['mail']['#required'] = FALSE;
+  $form['mail']['#title'] = 'Mail';
+  $form['cid']['#required'] = FALSE;
+  $form['message']['#required'] = FALSE;
+}

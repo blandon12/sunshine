@@ -1,0 +1,6 @@
+; $Id:
+name = LD service
+description = LD custom module
+core = 7.x
+package = LD
+
