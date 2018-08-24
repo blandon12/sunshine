@@ -38,12 +38,13 @@ footer {
 
   .region-footer-second {
     #business_card {
-      background: transparent url(/sites/all/themes/bootstrap_subtheme/images/business_card.png) no-repeat 0px 0px;
+      background: none;
       background-size: contain;
       background-position: center;
       height: 296px;
       position: relative;
-      color: #000;
+      color: #fff;
+      padding: 50px;
     }
 
     #address {
@@ -61,7 +62,7 @@ footer {
   .region-footer-b {
     float: right;
     span,a {
-      color: #666;
+      color: #fff;
     }
   }
 }
