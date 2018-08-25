@@ -49,12 +49,29 @@
       }
     }
 
+    .view-project-filter {
+      ul {
+        margin-left: 10px;
+        li {
+          float: left;
+          float: left;
+          margin-right: 20px;
+          list-style: none;
+          background: rgba(0,0,0,0.6);
+          padding: 5px 25px;
+        
+          a {
+            color: #fff;
+          }
+        }
+      }
+    }
 
-    .grid-item {
-      margin-bottom: 50px;
+    .isotope-element {
+      margin-bottom: 20px;
       display: inline-block;
       float: inherit;
-      margin-left: -3px;
+      margin-left: 10px;
 
       &.og-expanded {
         position: static;
