@@ -73,19 +73,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 7, ../sass/pricing.scss */
 .page-pricing .main-container #block-system-main .view-package-comparison .col:nth-child(1) .views-field-title {
-  background-color: rgba(204, 51, 51, 0.5);
+  background-color: #8B0000;
 }
 /* line 8, ../sass/pricing.scss */
 .page-pricing .main-container #block-system-main .view-package-comparison .col:nth-child(2) .views-field-title {
-  background-color: rgba(255, 153, 0, 0.5);
+  background-color: #8B0000;
 }
 /* line 9, ../sass/pricing.scss */
 .page-pricing .main-container #block-system-main .view-package-comparison .col:nth-child(3) .views-field-title {
-  background-color: rgba(51, 204, 51, 0.5);
+  background-color: #8B0000;
 }
 /* line 10, ../sass/pricing.scss */
 .page-pricing .main-container #block-system-main .view-package-comparison .col:nth-child(4) .views-field-title {
-  background-color: rgba(51, 153, 204, 0.5);
+  background-color: #8B0000;
 }
 /* line 12, ../sass/pricing.scss */
 .page-pricing .main-container #block-system-main .view-package-comparison .col .pricing-category {
@@ -98,11 +98,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin: 0;
   padding: 35px 0 0;
   text-align: center;
-  color: #666666;
+  color: #fff;
   font-size: 18px;
   text-transform: uppercase;
   text-decoration: none;
-  text-shadow: 1px 1px 1px #fff;
 }
 /* line 28, ../sass/pricing.scss */
 .page-pricing .main-container #block-system-main .view-package-comparison .col .pricing-category .views-field-field-price {
