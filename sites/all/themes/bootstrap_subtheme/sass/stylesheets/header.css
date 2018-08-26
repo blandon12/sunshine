@@ -1,0 +1,134 @@
+@font-face {
+  font-family: Lato-Light;
+  src: url(../../fonts/Lato-Light.ttf);
+}
+@font-face {
+  font-family: Raleway-Thin;
+  src: url(../../fonts/Raleway-Thin.ttf);
+}
+@font-face {
+  font-family: quicksand_light;
+  src: url(../../fonts/quicksand_light.otf);
+}
+@font-face {
+  font-family: Raleway-Regular;
+  src: url(../../fonts/Raleway-Regular.ttf);
+}
+/* line 19, ../sass/header.scss */
+header#navbar {
+  padding-top: 10px;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 1px 2px #ccc;
+  background: rgba(1, 1, 1, 0.4);
+  position: absolute;
+  z-index: 5;
+  box-shadow: none;
+  border: none;
+  margin: auto;
+  width: 100%;
+}
+/* line 30, ../sass/header.scss */
+header#navbar .navbar {
+  margin-bottom: 10px;
+}
+/* line 35, ../sass/header.scss */
+header#navbar .navbar .navbar-header a.logo img {
+  height: 45px;
+}
+/* line 39, ../sass/header.scss */
+header#navbar .navbar .navbar-header a.name {
+  font-size: 26px;
+  color: #fff;
+  font-size: 26px;
+  font-family: Lato-Light;
+  font-style: italic;
+  font-weight: bold;
+}
+/* line 48, ../sass/header.scss */
+header#navbar .navbar .navbar-collapse {
+  float: right;
+}
+/* line 52, ../sass/header.scss */
+header#navbar .navbar .navbar-collapse ul.menu li a {
+  color: #fff;
+  font-family: Raleway-Regular;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+/* line 61, ../sass/header.scss */
+header#navbar .navbar .navbar-collapse .region-navigation {
+  padding: 10px 15px;
+  border: 1px solid #fff;
+}
+/* line 65, ../sass/header.scss */
+header#navbar .navbar .navbar-collapse .region-navigation ul.language-switcher-locale-url {
+  list-style: none;
+  display: inline;
+  color: #fff;
+  padding: 0;
+}
+/* line 71, ../sass/header.scss */
+header#navbar .navbar .navbar-collapse .region-navigation ul.language-switcher-locale-url li {
+  display: inline;
+}
+/* line 74, ../sass/header.scss */
+header#navbar .navbar .navbar-collapse .region-navigation ul.language-switcher-locale-url li:after {
+  content: " / ";
+}
+/* line 77, ../sass/header.scss */
+header#navbar .navbar .navbar-collapse .region-navigation ul.language-switcher-locale-url li:last-child:after {
+  content: "";
+}
+/* line 81, ../sass/header.scss */
+header#navbar .navbar .navbar-collapse .region-navigation ul.language-switcher-locale-url li a {
+  color: #fff;
+}
+
+/* line 93, ../sass/header.scss */
+.region-slider .views-field-field-image img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/* line 99, ../sass/header.scss */
+.region-slider .views-field-title {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  font-size: 50px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-family: Raleway-Thin;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 117, ../sass/header.scss */
+  header#navbar .navbar .navbar-header a.name {
+    font-size: 20px;
+  }
+  /* line 121, ../sass/header.scss */
+  header#navbar .navbar .navbar-collapse {
+    float: none;
+    background: rgba(51, 51, 51, 0.9);
+    z-index: 10;
+    text-align: center;
+  }
+  /* line 127, ../sass/header.scss */
+  header#navbar .navbar .navbar-collapse .region-navigation {
+    float: none;
+    margin-bottom: 10px;
+  }
+
+  /* line 136, ../sass/header.scss */
+  .region-slider .views-field-title {
+    font-size: 24px;
+    top: 65%;
+    text-align: right;
+    padding-right: 5%;
+  }
+  /* line 142, ../sass/header.scss */
+  .region-slider .carousel-indicators {
+    display: none;
+  }
+}

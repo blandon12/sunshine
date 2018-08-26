@@ -1,0 +1,70 @@
+/* line 1, ../sass/footer.scss */
+footer {
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  background: #8B0000 !important;
+}
+/* line 7, ../sass/footer.scss */
+footer .region-footer-first h2 {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+/* line 14, ../sass/footer.scss */
+footer .region-footer-first .contact-form label {
+  float: left;
+  width: 80px;
+  text-align: right;
+  margin-right: 15px;
+}
+/* line 20, ../sass/footer.scss */
+footer .region-footer-first .contact-form input.form-text {
+  width: 70%;
+  border-radius: 0;
+}
+/* line 24, ../sass/footer.scss */
+footer .region-footer-first .contact-form .form-textarea-wrapper {
+  width: 70%;
+  float: left;
+}
+/* line 27, ../sass/footer.scss */
+footer .region-footer-first .contact-form .form-textarea-wrapper textarea {
+  border-radius: 0;
+}
+/* line 31, ../sass/footer.scss */
+footer .region-footer-first .contact-form button {
+  float: left;
+  clear: left;
+  margin: 15px 0 0 95px;
+  border-radius: 0;
+}
+/* line 41, ../sass/footer.scss */
+footer .region-footer-second #business_card {
+  background: none;
+  background-size: contain;
+  background-position: center;
+  height: 296px;
+  position: relative;
+  color: #fff;
+  padding: 50px;
+}
+/* line 51, ../sass/footer.scss */
+footer .region-footer-second #address {
+  position: absolute;
+  text-align: right;
+  right: 80px;
+  top: 145px;
+  width: 260px;
+  font-size: 0.8em;
+  display: none;
+}
+/* line 63, ../sass/footer.scss */
+footer .region-footer-b {
+  float: right;
+}
+/* line 65, ../sass/footer.scss */
+footer .region-footer-b span, footer .region-footer-b a {
+  color: #fff;
+}

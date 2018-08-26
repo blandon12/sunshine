@@ -1,0 +1,31 @@
+/* line 3, ../sass/blog_detail.scss */
+.node-type-blog #block-system-main .field-name-title-field {
+  margin-bottom: 20px;
+  font-size: 36px;
+  color: #333;
+  font-family: 'Droid Serif';
+}
+/* line 9, ../sass/blog_detail.scss */
+.node-type-blog #block-system-main .field-name-title-field:hover {
+  text-decoration: none;
+  color: #555;
+}
+/* line 15, ../sass/blog_detail.scss */
+.node-type-blog #block-system-main .field-name-body {
+  color: #666;
+  font-family: 'Droid Serif';
+  font-size: 16px;
+  text-align: left;
+}
+/* line 20, ../sass/blog_detail.scss */
+.node-type-blog #block-system-main .field-name-body pre {
+  background-color: rgba(102, 204, 51, 0.2);
+}
+/* line 25, ../sass/blog_detail.scss */
+.node-type-blog #block-system-main .field-name-field-blog-tag {
+  margin-top: 10px;
+}
+/* line 31, ../sass/blog_detail.scss */
+.node-type-blog #comments {
+  margin-top: 50px;
+}

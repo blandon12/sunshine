@@ -1,0 +1,260 @@
+@font-face {
+  font-family: quicksand_light;
+  src: url(../../fonts/quicksand_light.otf);
+}
+@font-face {
+  font-family: quicksand_regular;
+  src: url(../../fonts/Quicksand-Regular.otf);
+}
+@font-face {
+  font-family: Raleway-Thin;
+  src: url(../../fonts/Raleway-Thin.ttf);
+}
+@font-face {
+  font-family: Lato-Light;
+  src: url(../../fonts/Lato-Light.ttf);
+}
+@font-face {
+  font-family: Lato-Regular;
+  src: url(../../fonts/Lato-Regular.ttf);
+}
+/* line 26, ../sass/project.scss */
+.page-project #block-system-main .view-header {
+  margin-bottom: 30px;
+}
+/* line 29, ../sass/project.scss */
+.page-project #block-system-main .view-header h2 {
+  font-family: Raleway-Bold;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 38px;
+  margin-bottom: 25px;
+  color: #666;
+}
+/* line 37, ../sass/project.scss */
+.page-project #block-system-main .view-header h2 strong {
+  color: #E84E41;
+}
+/* line 42, ../sass/project.scss */
+.page-project #block-system-main .view-header span {
+  font-family: Raleway-Regular;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 40px;
+  margin-bottom: 45px;
+  color: #666;
+}
+/* line 53, ../sass/project.scss */
+.page-project #block-system-main .view-project-filter ul {
+  margin-left: 10px;
+}
+/* line 55, ../sass/project.scss */
+.page-project #block-system-main .view-project-filter ul li {
+  float: left;
+  float: left;
+  margin-right: 20px;
+  list-style: none;
+  background: #8B0000;
+  padding: 5px 25px;
+}
+/* line 63, ../sass/project.scss */
+.page-project #block-system-main .view-project-filter ul li a {
+  color: #fff;
+}
+/* line 70, ../sass/project.scss */
+.page-project #block-system-main .isotope-element {
+  margin-bottom: 20px;
+  display: inline-block;
+  float: inherit;
+  margin-left: 10px;
+}
+/* line 76, ../sass/project.scss */
+.page-project #block-system-main .isotope-element.og-expanded {
+  position: static;
+  float: none;
+}
+/* line 81, ../sass/project.scss */
+.page-project #block-system-main .isotope-element .views-field-image:hover {
+  cursor: pointer;
+}
+/* line 83, ../sass/project.scss */
+.page-project #block-system-main .isotope-element .views-field-image:hover img {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+/* line 89, ../sass/project.scss */
+.page-project #block-system-main .isotope-element .views-field-image:hover h2 {
+  opacity: 1;
+  -webkit-transform: translate3d(10px, 0, 0);
+  transform: translate3d(10px, 0, 0);
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+  color: #E84E41;
+}
+/* line 98, ../sass/project.scss */
+.page-project #block-system-main .isotope-element .views-field-image .thumbnail {
+  border: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  max-width: 350px;
+  box-shadow: none;
+}
+/* line 104, ../sass/project.scss */
+.page-project #block-system-main .isotope-element .views-field-image .thumbnail header {
+  height: 13px;
+  background: #ddd url("/sites/all/themes/bootstrap_subtheme/images/img-header.png") repeat-x left top;
+  border: solid 1px #bfbfbf;
+  -webkit-border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0;
+}
+/* line 112, ../sass/project.scss */
+.page-project #block-system-main .isotope-element .views-field-image .thumbnail img {
+  width: 350px;
+  height: 330px;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+}
+/* line 119, ../sass/project.scss */
+.page-project #block-system-main .isotope-element .views-field-image .thumbnail img:hover {
+  opacity: 0.7;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+/* line 130, ../sass/project.scss */
+.page-project #block-system-main .isotope-element .views-field-title-field h2 {
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+/* line 138, ../sass/project.scss */
+.page-project #block-system-main .isotope-element .views-field-nothing {
+  margin-top: 10px;
+  display: none;
+  left: 0;
+  margin-top: 10px;
+  overflow: hidden;
+  position: absolute;
+  text-align: left;
+  top: auto;
+  width: 100%;
+  background: #f3f3f3;
+}
+/* line 151, ../sass/project.scss */
+.page-project #block-system-main .isotope-element .views-field-nothing span {
+  float: right;
+}
+/* line 155, ../sass/project.scss */
+.page-project #block-system-main .isotope-element .views-field-nothing .portfolio-content .project-close {
+  cursor: pointer;
+  float: right;
+  font-family: "Raleway-Thin";
+  font-size: 36px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  position: relative;
+  right: 0;
+  text-align: right;
+  color: #999;
+  font-weight: 100;
+}
+/* line 167, ../sass/project.scss */
+.page-project #block-system-main .isotope-element .views-field-nothing .portfolio-content .project-close:hover {
+  color: orange;
+}
+/* line 171, ../sass/project.scss */
+.page-project #block-system-main .isotope-element .views-field-nothing .portfolio-content h2 {
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-family: Lato-Light;
+  color: #444;
+}
+/* line 180, ../sass/project.scss */
+.page-project #block-system-main .isotope-element .views-field-nothing .portfolio-content p {
+  text-align: left;
+  margin-bottom: 30px;
+  font-family: Lato-Regular;
+  direction: ltr;
+  color: #393939;
+  font-size: 14px;
+  line-height: 25px;
+}
+/* line 189, ../sass/project.scss */
+.page-project #block-system-main .isotope-element .views-field-nothing .portfolio-content .pc-left {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 1px;
+}
+/* line 195, ../sass/project.scss */
+.page-project #block-system-main .isotope-element .views-field-nothing .portfolio-content .pc-left img {
+  width: 100%;
+  border: 1px solid #f1f1f1;
+  margin-bottom: 5px;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/* line 204, ../sass/project.scss */
+.page-project #block-system-main .isotope-element .views-field-nothing .portfolio-content .pc-right {
+  line-height: 20px;
+}
+/* line 206, ../sass/project.scss */
+.page-project #block-system-main .isotope-element .views-field-nothing .portfolio-content .pc-right h3 {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-family: Lato-Light;
+  color: #444;
+  line-height: 25px;
+}
+/* line 213, ../sass/project.scss */
+.page-project #block-system-main .isotope-element .views-field-nothing .portfolio-content .pc-right a {
+  text-decoration: none;
+  color: #98C57A;
+}
+/* line 216, ../sass/project.scss */
+.page-project #block-system-main .isotope-element .views-field-nothing .portfolio-content .pc-right a:hover {
+  text-decoration: underline;
+}
+/* line 220, ../sass/project.scss */
+.page-project #block-system-main .isotope-element .views-field-nothing .portfolio-content .pc-right ul {
+  padding-left: 0;
+  list-style: none;
+  font-family: "Lato-Regular";
+}
+/* line 225, ../sass/project.scss */
+.page-project #block-system-main .isotope-element .views-field-nothing .portfolio-content .pc-right p {
+  font-family: "Lato-Regular";
+}
+
+@media screen and (min-width: 767px) and (max-width: 992px) {
+  /* line 237, ../sass/project.scss */
+  .page-project .views-field-nothing {
+    height: 1050px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1025px) {
+  /* line 245, ../sass/project.scss */
+  .page-project .views-field-nothing {
+    height: 1330px;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  /* line 252, ../sass/project.scss */
+  .page-project .views-field-nothing {
+    height: 1520px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 259, ../sass/project.scss */
+  .page-project .views-field-nothing {
+    height: 1530px;
+  }
+}

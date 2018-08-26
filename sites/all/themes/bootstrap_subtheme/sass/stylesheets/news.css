@@ -1,0 +1,16 @@
+/* line 6, ../sass/news.scss */
+.page-wiki .main-container .view-timeline-news .simple_timeline ul li:nth-child(odd) .timeline-content {
+  float: right !important;
+}
+/* line 9, ../sass/news.scss */
+.page-wiki .main-container .view-timeline-news .simple_timeline ul li:nth-child(odd) .timeline-content .timeline-text {
+  width: 70%;
+}
+/* line 16, ../sass/news.scss */
+.page-wiki .main-container .view-timeline-news .simple_timeline ul li:nth-child(even) .timeline-content {
+  float: left !important;
+}
+/* line 19, ../sass/news.scss */
+.page-wiki .main-container .view-timeline-news .simple_timeline ul li:nth-child(even) .timeline-content .timeline-text {
+  width: 70%;
+}
