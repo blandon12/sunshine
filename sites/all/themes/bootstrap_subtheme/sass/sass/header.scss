@@ -20,7 +20,7 @@ header#navbar {
   padding-top: 10px;
   border-bottom: 1px solid #ccc;
   box-shadow: 0 1px 2px #ccc;
-  background: rgba(1,1,1,0.4);
+  background: rgba(1,1,1,0.8);
   position: absolute;
   z-index: 5;
   box-shadow: none;
@@ -39,10 +39,10 @@ header#navbar {
       a.name {
         font-size: 26px;
         color: #8B0000;
-        font-size: 26px;
-        font-family: Lato-Light;
+        font-size: 30px;
+        font-family: Lato;
         font-style: italic;
-        font-weight: bold;
+        font-weight: 900;
       }
     }
     .navbar-collapse {
@@ -50,7 +50,7 @@ header#navbar {
       ul.menu {
         li {
           a {
-            color: #fff;
+            color: #8B0000;
             font-family: Raleway-Regular;
             font-size: 16px;
             text-transform: uppercase;
@@ -60,12 +60,12 @@ header#navbar {
 
       .region-navigation {
         padding: 10px 15px;
-        border: 1px solid #fff;
+        border: 1px solid #8B0000;
 
         ul.language-switcher-locale-url {
           list-style: none;
           display: inline;
-          color: #fff;
+          color: #8B0000;
           padding: 0;
 
           li {
@@ -79,7 +79,7 @@ header#navbar {
             }
 
             a {
-              color: #fff;
+              color: #8B0000;
             }
           }
         }

@@ -6,6 +6,6 @@ sites/*/files
 sites/*/private
 */.DS_Store
 */.sass-cache
-sites/all/themes/bootstrap_subtheme/sass/stylesheets
+# sites/all/themes/bootstrap_subtheme/sass/stylesheets
 */workspace.xml
 .idea/
